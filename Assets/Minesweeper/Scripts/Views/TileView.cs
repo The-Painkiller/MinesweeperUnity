@@ -75,7 +75,6 @@ public class TileView : MonoBehaviour, IPointerClickHandler
     /// </summary>
     public void Uncover ( )
     {
-        Debug.Log ( "Instance ID: " + _cover.GetInstanceID());
         _cover.gameObject.SetActive ( false );
     }
 
